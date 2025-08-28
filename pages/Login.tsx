@@ -5,13 +5,13 @@ export const Login = () => {
 
   return (
     <div className="flex items-center justify-center h-screen bg-[#010d48]">
-      <div className="relative w-[350px] md:w-[950px] h-[550px] rounded-[30px] overflow-hidden shadow-lg bg-white">
+      <div className="relative  md:w-[950px] h-[550px] rounded-[30px] overflow-hidden shadow-lg bg-white">
         {/* Sign Up Form */}
         <div
           className={`absolute top-0 left-0 w-1/2 h-full flex flex-col items-center justify-center px-10 text-center transition-all duration-700 ${
             isSignUp
-              ? "translate-x-0 opacity-100 z-10"
-              : "-translate-x-full opacity-0 z-0"
+              ? "translate-x-full opacity-100 z-10"
+              : "-translate-x-0 opacity-0 z-0"
           }`}
         >
           <form className="flex flex-col items-center justify-center w-full">
@@ -100,7 +100,7 @@ export const Login = () => {
             isSignUp ? "-translate-x-full" : "translate-x-0"
           }`}
         >
-          <div className={`absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#1333b6] to-[#9aa7db] text-white flex flex-col items-center justify-center p-6 transition-all duration-700  ${isSignUp ?"rounded-r-[110px] rounded-l-[30px]": "rounded-l-[110px] rounded-r-[30px]"}`}> 
+          <div className={`absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#9aa7db] to-[#1333b6] text-white flex flex-col items-center justify-center p-6 transition-all duration-700  ${isSignUp ?"rounded-r-[110px] rounded-l-[30px]": "rounded-l-[110px] rounded-r-[30px]"}`}> 
             {isSignUp ? (
               <>
                 <h1 className="text-lg font-bold">Already have an Account?</h1>
