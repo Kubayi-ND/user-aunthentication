@@ -5,7 +5,7 @@ export const Login = () => {
 
   return (
     <div className="flex items-center justify-center h-screen bg-[#010d48]">
-      <div className="relative  md:w-[950px] h-[550px] rounded-[30px] overflow-hidden shadow-lg bg-white">
+      <div className="relative  md:w-[950px] h-[550px] rounded-[35px] overflow-hidden shadow-lg bg-white">
         {/* Sign Up Form */}
         <div
           className={`absolute top-0 left-0 w-1/2 h-full flex flex-col items-center justify-center px-10 text-center transition-all duration-700 ${
@@ -20,31 +20,31 @@ export const Login = () => {
               type="text"
               placeholder="Name"
               required
-              className="bg-gray-200 rounded-md p-2 w-full mb-2 outline-none text-sm"
+              className="bg-gray-200 rounded-md p-2 w-full mb-2 outline-none text-md"
             />
             <input
               type="text"
               placeholder="Surname"
               required
-              className="bg-gray-200 rounded-md p-2 w-full mb-2 outline-none text-sm"
+              className="bg-gray-200 rounded-md p-2 w-full mb-2 outline-none text-md"
             />
             <input
               type="email"
               placeholder="Email"
               required
-              className="bg-gray-200 rounded-md p-2 w-full mb-2 outline-none text-sm"
+              className="bg-gray-200 rounded-md p-2 w-full mb-2 outline-none text-md"
             />
             <input
               type="password"
               placeholder="Password"
               required
-              className="bg-gray-200 rounded-md p-2 w-full mb-2 outline-none text-sm"
+              className="bg-gray-200 rounded-md p-2 w-full mb-2 outline-none text-md"
             />
             <input
               type="password"
               placeholder="Confirm Password"
               required
-              className="bg-gray-200 rounded-md p-2 w-full mb-4 outline-none text-sm"
+              className="bg-gray-200 rounded-md p-2 w-full mb-4 outline-none text-md"
             />
 
             <div className="flex space-x-4 mb-4 text-gray-600 text-lg">
@@ -69,20 +69,20 @@ export const Login = () => {
           }`}
         >
           <form className="flex flex-col items-center justify-center w-full">
-            <h1 className="text-xl font-bold mb-4">Welcome Back</h1>
+            <h1 className="text-4xl font-bold mb-4">Welcome Back</h1>
             <input
               type="email"
               placeholder="Email"
               required
-              className="bg-gray-200 rounded-md p-2 w-full mb-2 outline-none text-sm"
+              className="bg-gray-200 rounded-md p-2 w-full mb-2 outline-none text-md"
             />
             <input
               type="password"
               placeholder="Password"
               required
-              className="bg-gray-200 rounded-md p-2 w-full mb-2 outline-none text-sm"
+              className="bg-gray-200 rounded-md p-2 w-full mb-2 outline-none text-md"
             />
-            <a className="text-gray-600 text-sm mb-4 cursor-pointer">
+            <a className="text-gray-600 text-md mb-4 cursor-pointer">
               Forgot your password?
             </a>
             <div className="flex space-x-4 mb-4 text-gray-600 text-lg">
@@ -100,21 +100,21 @@ export const Login = () => {
             isSignUp ? "-translate-x-full" : "translate-x-0"
           }`}
         >
-          <div className={`absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#9aa7db] to-[#1333b6] text-white flex flex-col items-center justify-center p-6 transition-all duration-700  ${isSignUp ?"rounded-r-[110px] rounded-l-[30px]": "rounded-l-[110px] rounded-r-[30px]"}`}> 
+          <div className={`absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#9aa7db] to-[#1333b6] text-white flex flex-col items-center justify-center p-4 transition-all duration-700  ${isSignUp ?"rounded-r-[110px] rounded-l-[30px]": "rounded-l-[110px] rounded-r-[30px]"}`}> 
             {isSignUp ? (
               <>
-                <h1 className="text-lg font-bold">Already have an Account?</h1>
+                <h1 className="text-5xl text-center font-bold">Already have an Account?</h1>
                 <button
                   onClick={() => setIsSignUp(false)}
-                  className="mt-4 border border-white px-10 py-4 rounded-lg text-lg uppercase font-semibold"
+                  className="mt-4 border border-white px-10 py-3 rounded-lg text-lg uppercase font-semibold"
                 >
                   Sign In
                 </button>
               </>
             ) : (
               <>
-                <h1 className="text-lg font-bold">Don't have an Account?</h1>
-                <p className="text-sm mt-2">
+                <h1 className="text-5xl text-center font-bold">Don't have an Account?</h1>
+                <p className="text-lg mt-2">
                   Register an Account to use all site features
                 </p>
                 <button
