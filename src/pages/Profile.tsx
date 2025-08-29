@@ -8,6 +8,10 @@ export const Profile = () => {
 
   return (
     <div className=" h-screen bg-white p-8">
+      <div className="w-full flex justify-between border-b border-gray-300 ">
+          <img src="/Logo.png" alt="Logo" className="h-16 mb-2"/>
+          <button className="bg-[#02052c] text-white px-4 rounded-md h-10 w-28 hover:scale-105 hover:cursor-pointer">Sign out</button>
+        </div>
       <div className=" p-8">
         {/* user information display */}
         <div>
@@ -22,7 +26,7 @@ export const Profile = () => {
 
       {updateProfile && (
           <div className='relative w-80 md:w-135 pt-4'>
-            <X className='absolute right-0 cursor-pointer ' onClick={() => setUpdateProfile(false)}/>
+            <X className='absolute right-0 cursor-pointer hover:scale-105 hover:text-blue-700 ' onClick={() => setUpdateProfile(false)}/>
             <div className="mb-4 mr-6">
               <label className="block text-gray-700">Email</label>
               <input
@@ -39,7 +43,7 @@ export const Profile = () => {
             </div>
           </div>
         )}
-            <button onClick={() => setUpdateProfile(true)} className="bg-[#02052c] text-white px-4 py-2 rounded-md">
+            <button onClick={() => setUpdateProfile(true)} className="bg-[#02052c] text-white px-4 py-2 rounded-md hover:scale-105 hover:cursor-pointer">
               Update Profile
             </button>   
     </div>

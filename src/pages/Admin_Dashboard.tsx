@@ -2,6 +2,7 @@
 export const AdminDashboard = () => {
   return (
       <div className="  p-8">
+      
         <h1 className="text-5xl text-[#012250] font-bold mb-4 p-2">Admin Dashboard</h1>
         <div className="mb-4 border border-gray-300 p-4 rounded-xl">
           {/* <label className="block text-gray-700">User Management</label>
