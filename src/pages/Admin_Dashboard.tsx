@@ -1,7 +1,7 @@
 
 export const AdminDashboard = () => {
   return (
-    <div className="flex items-center justify-center h-screen bg-[#010d48]">
+    <div className="flex items-center justify-center h-screen bg-white">
       <div className="bg-white rounded-lg shadow-lg p-8">
         <h1 className="text-2xl font-bold mb-4">Admin Dashboard</h1>
         <div className="mb-4">
