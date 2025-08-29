@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export const Login = () => {
   const [isSignUp, setIsSignUp] = useState(false);
