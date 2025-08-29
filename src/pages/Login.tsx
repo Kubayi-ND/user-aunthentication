@@ -15,7 +15,7 @@ export const Login = () => {
           }`}
         >
           <form className="flex flex-col items-center justify-center w-full">
-            <h1 className="text-xl font-bold mb-4">Create new Account</h1>
+            <h1 className="text-4xl text-[#012250] font-bold mb-4">Create new Account</h1>
             <input
               type="text"
               placeholder="Name"
@@ -69,7 +69,7 @@ export const Login = () => {
           }`}
         >
           <form className="flex flex-col items-center justify-center w-full">
-            <h1 className="text-4xl font-bold mb-4">Welcome Back</h1>
+            <h1 className="text-4xl text-[#012250] font-bold mb-4">Welcome Back</h1>
             <input
               type="email"
               placeholder="Email"
