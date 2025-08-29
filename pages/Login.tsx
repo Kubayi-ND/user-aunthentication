@@ -82,7 +82,7 @@ export const Login = () => {
               required
               className="bg-gray-200 rounded-md p-2 w-full mb-2 outline-none text-md"
             />
-            <a className="text-gray-600 text-md mb-4 cursor-pointer">
+            <a className="text-gray-600 text-md mb-4 cursor-pointer hover:underline">
               Forgot your password?
             </a>
             <div className="flex space-x-4 mb-4 text-gray-600 text-lg">
@@ -106,7 +106,7 @@ export const Login = () => {
                 <h1 className="text-5xl text-center font-bold">Already have an Account?</h1>
                 <button
                   onClick={() => setIsSignUp(false)}
-                  className="mt-4 border border-white px-10 py-3 rounded-lg text-lg uppercase font-semibold"
+                  className="mt-4 px-10 py-3 rounded-lg text-lg uppercase font-semibold hover:cursor-pointer underline"
                 >
                   Sign In
                 </button>
@@ -119,7 +119,7 @@ export const Login = () => {
                 </p>
                 <button
                   onClick={() => setIsSignUp(true)}
-                  className="mt-4 border border-white px-10 py-3 rounded-lg text-lg uppercase font-semibold"
+                  className="mt-4 px-10 py-3 rounded-lg text-lg uppercase font-semibold hover:cursor-pointer underline"
                 >
                   Sign Up
                 </button>
