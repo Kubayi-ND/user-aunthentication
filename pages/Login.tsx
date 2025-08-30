@@ -115,7 +115,7 @@ export const Login = () => {
               <>
                 <h1 className="text-5xl text-center font-bold">Don't have an Account?</h1>
                 <p className="text-lg mt-2">
-                  Register an Account to use all site features
+                  Register an Account to login to the platform
                 </p>
                 <button
                   onClick={() => setIsSignUp(true)}
