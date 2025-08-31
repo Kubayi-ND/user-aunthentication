@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {X} from 'lucide-react'
+import {X} from 'lucide-react';
 
 export const Profile = () => {
   const [updateProfile, setUpdateProfile] = useState(false);
