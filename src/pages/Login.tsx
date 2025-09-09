@@ -103,7 +103,7 @@ export const Login = () => {
                 <h1 className="text-5xl text-center font-bold">Already have an Account ?</h1>
                 <button
                   onClick={() => setIsSignUp(false)}
-                  className="mt-4 px-10 py-3 rounded-lg text-lg uppercase font-semibold hover:cursor-pointer underline"
+                  className="mt-4 px-10 py-3 rounded-lg text-lg uppercase font-semibold hover:scale-105 hover:cursor-pointer underline"
                 >
                   Sign In
                 </button>
@@ -116,7 +116,7 @@ export const Login = () => {
                 </p>
                 <button
                   onClick={() => setIsSignUp(true)}
-                  className="mt-4 px-10 py-3 rounded-lg text-lg uppercase font-semibold hover:cursor-pointer underline"
+                  className="mt-4 px-10 py-3 rounded-lg text-lg uppercase font-semibold hover:scale-105 hover:cursor-pointer underline"
                 >
                   Sign Up
                 </button>
